@@ -1,0 +1,1 @@
+PREFECT_LOGGING_FORMATTERS_STANDARD_FLOW_RUN_FMT="%(asctime)s.%(msecs)01d | %(levelname)-7s | %(flow_run_id)s - %(message)s"
