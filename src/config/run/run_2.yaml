@@ -1,14 +1,13 @@
-run:
-  keep_columns:
-      - Income
-      - Recency
-      - NumWebVisitsMonth
-      - Complain
-      - age
-      - total_purchases
-      - enrollment_years
-      - family_size
+keep_columns:
+    - Income
+    - Recency
+    - NumWebVisitsMonth
+    - Complain
+    - age
+    - total_purchases
+    - enrollment_years
+    - family_size
 
-  remove_outliers_threshold:
-    age: 80
-    Income: 500000
+remove_outliers_threshold:
+  age: 80
+  income: 500000

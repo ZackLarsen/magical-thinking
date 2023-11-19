@@ -10,4 +10,4 @@ keep_columns:
 
 remove_outliers_threshold:
   age: 90
-  Income: 600000
+  income: 600000

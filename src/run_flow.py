@@ -24,6 +24,8 @@ def run_flow(cfg: DictConfig) -> None:
     logger = get_run_logger()
     logger.info("Running flow")
     logger.info(cfg.message)
+    logger.info(f"Age threshold: {cfg['run']['remove_outliers_threshold']['age']}")
+    logger.info(f"Income threshold: {cfg['run']['remove_outliers_threshold']['income']}")
     logger.info(cfg['run']['keep_columns'])
     ingest_raw_data()
     clean_data()
